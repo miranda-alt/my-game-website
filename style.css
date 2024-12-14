@@ -1,0 +1,50 @@
+/* General Page Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f4;
+    text-align: center;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 1em;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+p {
+    color: #555;
+}
+
+/* Button Styling */
+a.btn {
+    display: inline-block;
+    margin-top: 1em;
+    padding: 1em 2em;
+    background-color: #28a745;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2em;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+a.btn:hover {
+    background-color: #218838;
+    transform: scale(1.05);
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    padding: 1em;
+    margin-top: 2em;
+}
+
